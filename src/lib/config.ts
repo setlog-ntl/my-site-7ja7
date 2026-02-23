@@ -18,7 +18,7 @@ export const siteConfig = {
   addressEn: process.env.NEXT_PUBLIC_ADDRESS_EN || null,
   website: process.env.NEXT_PUBLIC_WEBSITE || null,
   socials: parseJSON<SocialItem[]>(process.env.NEXT_PUBLIC_SOCIALS, []),
-  avatarUrl: process.env.NEXT_PUBLIC_AVATAR_URL || '/images/1771858838572-upload.png',
+  avatarUrl: process.env.NEXT_PUBLIC_AVATAR_URL || '/images/1771860848908-upload.png',
   accentColor: process.env.NEXT_PUBLIC_ACCENT_COLOR || '#3b82f6',
   gaId: process.env.NEXT_PUBLIC_GA_ID || null,
 };
